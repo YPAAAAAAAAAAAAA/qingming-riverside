@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="zh">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<title>Qingming Riverside</title>
+<base href="vendor/">
+<style>html,body{height:100%;margin:0;overflow:hidden;background:#c5d8e2}</style>
+<script src="/sandbox/_ready.js"></script>
+<link rel="stylesheet" href="scroll.css">
+</head>
+<body>
+<canvas id="canvas"></canvas>
+<button id="toggle" type="button" aria-label="菜单" aria-expanded="false">≡</button>
+<div id="panel">
+  <p class="k">时辰</p>
+  <div class="row">
+    <button type="button" data-sky="day">昼</button>
+    <button type="button" data-sky="rain">时雨</button>
+    <button type="button" data-sky="night">夜</button>
+  </div>
+  <p class="k">季节</p>
+  <div class="grid">
+    <button type="button" data-season="spring">春</button>
+    <button type="button" data-season="summer">夏</button>
+    <button type="button" data-season="autumn">秋</button>
+    <button type="button" data-season="winter">冬</button>
+  </div>
+  <button type="button" id="sketchbtn">留画稿</button>
+  <p class="hint">拖动行走，轻点前往。茶棚饮茶，码头乘船，桥前收桅。</p>
+  <p class="credit">idea after @xianxie6 (xianxie6/qingming-riverside); clean-room implementation, no code copied</p>
+</div>
+<button id="chip" type="button"></button>
+<!-- LICENSE.txt -->
+<script src="scroll.js"></script>
+</body>
+</html>
