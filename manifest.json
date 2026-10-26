@@ -1,0 +1,20 @@
+{
+  "id": "qingming-riverside",
+  "title": {
+    "en": "Qingming Riverside",
+    "zh": "清明上河"
+  },
+  "intro": {
+    "en": "Walk a Song-dynasty riverside market scroll: stroll the street, drink tea, board a boat, call timely rain or night, and lower the mast to pass the rainbow bridge.",
+    "zh": "沿宋代河市画卷行走、饮茶、乘船，看时雨与夜色，收桅穿过虹桥。"
+  },
+  "officialFiles": [
+    "vendor/index.html",
+    "vendor/scroll.css",
+    "vendor/scroll.js",
+    "vendor/LICENSE.txt"
+  ],
+  "playHtml": "play.html",
+  "aspect": "phone",
+  "githubRepo": "ypaaaaaaaaaaaaa/qingming-riverside"
+}
